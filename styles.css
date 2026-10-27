@@ -525,3 +525,17 @@ footer.site-footer {
     grid-template-columns: 1fr;
   }
 }
+
+/* Support and public policy pages */
+.support-panel, .policy-container { max-width: 850px; }
+.support-panel p, .policy-container p, .policy-container li { color: var(--text-muted); margin: 1rem 0; }
+.support-panel a, .policy-container a, .footer-bottom a { color: var(--accent-cyan); overflow-wrap: anywhere; }
+.policy-container { padding-top: 3rem; padding-bottom: 4rem; }
+.policy-container h1 { font-size: clamp(2rem, 5vw, 3rem); }
+.policy-container h2 { margin-top: 2rem; font-size: 1.4rem; }
+.policy-container ul, .policy-container ol { padding-left: 1.5rem; }
+a:focus-visible { outline: 2px solid var(--accent-cyan); outline-offset: 4px; }
+@media (max-width: 960px) {
+  .nav-wrapper { height: auto; min-height: 4.75rem; flex-wrap: wrap; gap: 1rem; padding-top: 1rem; padding-bottom: 1rem; }
+  .nav-links { display: flex; flex-wrap: wrap; gap: 1rem; }
+}
