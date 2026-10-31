@@ -14,269 +14,136 @@
   <meta property="og:url" content="https://survivorx.stasisstate.com/" />
   <meta property="og:image" content="https://survivorx.stasisstate.com/assets/screenshot_home.png" />
 
-  <link rel="stylesheet" href="styles.css" />
+  <link rel="canonical" href="https://survivorx.stasisstate.com/" />
+  <link rel="stylesheet" href="home.css" />
   <link rel="icon" type="image/png" href="assets/ui_app_icon_512.png" />
 </head>
-<body>
-  <div class="nebula-glow" aria-hidden="true"></div>
+<body class="cinematic">
+<a class="skip-link" href="#main">Skip to content</a>
 
-  <!-- Header -->
-  <header class="site-header">
-    <div class="container nav-wrapper">
-      <a href="index.html" class="brand-link" aria-label="Survivor-X Home">
-        <img src="assets/ui_app_icon_512.png" alt="Survivor-X Icon" class="brand-logo-img" />
-        <span>Survivor-X</span>
-      </a>
-
-      <nav aria-label="Main Navigation">
-        <ul class="nav-links">
-          <li><a href="#features">Features</a></li>
-          <li><a href="#screenshots">Screenshots</a></li>
-          <li><a href="privacy.html">Privacy</a></li>
-          <li><a href="terms.html">Terms</a></li>
-          <li><a href="data-deletion.html">Data Deletion</a></li>
-          <li><a href="#support">Support</a></li>
-          <li>
-            <a href="https://stasisstate.com" target="_blank" rel="noopener noreferrer" class="parent-llc-badge">
-              By Stasis State LLC &nearr;
-            </a>
-          </li>
-          <li><a href="#support" class="btn btn-forge btn-sm">Contact Publisher</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
-
-  <main>
-    <!-- Hero Section -->
-    <section class="hero container">
-      <div class="hero-content">
-        <div class="hero-pill">
-          <span>Android Native &bull; Roguelite Arena</span>
-        </div>
-        <h1>Survive the Swarm. <span class="text-gradient">Forge the Void.</span></h1>
-        <p class="hero-tagline">
-          A high-intensity, single-thumb 2D tactical arena survival roguelite built natively for Android. Featuring zero-button auto-firing armaments, deep 14-attribute synergy matrices, tier merging, and 20 escalating combat waves culminating in a multi-phase titan boss encounter.
-        </p>
-
-        <div class="hero-actions" id="download">
-          <a href="#support" class="btn btn-forge">
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
-              <path d="M3.609 1.814L13.792 12 3.61 22.186a2.38 2.38 0 0 1-.61-1.637V3.451c0-.628.224-1.218.609-1.637zM15.207 13.414l2.457 2.457-11.45 6.44 8.993-8.897zm0-2.828L6.214 1.689l11.45 6.44-2.457 2.457zm1.414 1.414l3.657 2.057c1.028.578 1.028 1.523 0 2.101l-3.657 2.057-2.122-2.121 2.122-2.094z"/>
-            </svg>
-            Ask About Availability
-          </a>
-          <a href="#features" class="btn btn-outline">Explore Gameplay</a>
-        </div>
-
-        <div class="hero-meta-strip">
-          <div>
-            <div class="meta-stat-val">20</div>
-            <div class="meta-stat-lbl">Combat Waves</div>
-          </div>
-          <div>
-            <div class="meta-stat-val">14</div>
-            <div class="meta-stat-lbl">Synergy Attributes</div>
-          </div>
-          <div>
-            <div class="meta-stat-val">120 FPS</div>
-            <div class="meta-stat-lbl">Display Pacing</div>
-          </div>
-          <div>
-            <div class="meta-stat-val">Offline</div>
-            <div class="meta-stat-lbl">Playable Without Sign-in</div>
-          </div>
-        </div>
-      </div>
-
-      <div class="hero-visual">
-        <div class="phone-mockup">
-          <img src="assets/screenshot_home.png" alt="Survivor-X Home Screen" />
-        </div>
-      </div>
-    </section>
-
-    <!-- Core Gameplay Features -->
-    <section class="section" id="features">
-      <div class="container">
-        <div class="section-header">
-          <div class="sub-title">Core Systems</div>
-          <h2>Forged for Tactical Depth</h2>
-          <p>
-            No bloated menus. No clunky virtual buttons. Every mechanic is engineered for instantaneous tactile responsiveness and emergent synergy.
-          </p>
-        </div>
-
-        <div class="features-grid">
-          <div class="feature-card">
-            <div class="feature-icon-badge" aria-hidden="true">
-              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
-            </div>
-            <h3>Single-Thumb Tactical Combat</h3>
-            <p>
-              Auto-firing weaponry targets nearest threats with zero input lag, allowing you to focus entirely on precision movement, kite pathways, and hitbox evasion.
-            </p>
-          </div>
-
-          <div class="feature-card">
-            <div class="feature-icon-badge" aria-hidden="true">
-              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path></svg>
-            </div>
-            <h3>Weapon Merging: Tiers 1–4</h3>
-            <p>
-              Combine duplicate weapons in the post-wave shop to forge higher-tier armaments with amplified modifiers, increased projectile counts, and specialized behaviors.
-            </p>
-          </div>
-
-          <div class="feature-card">
-            <div class="feature-icon-badge" aria-hidden="true">
-              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"></circle><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path></svg>
-            </div>
-            <h3>14-Attribute Synergy Matrix</h3>
-            <p>
-              Balance Damage, Attack Speed, Critical Chance, Lifesteal, Projectile Pierce, Range, Kinetic Knockback, and Armor to construct indestructible builds.
-            </p>
-          </div>
-
-          <div class="feature-card">
-            <div class="feature-icon-badge" aria-hidden="true">
-              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"></path><line x1="12" y1="9" x2="12" y2="13"></line><line x1="12" y1="17" x2="12.01" y2="17"></line></svg>
-            </div>
-            <h3>High-Risk Cursed Items</h3>
-            <p>
-              Embrace double-edged sword relics that offer colossal offensive multipliers in exchange for crippled max health, erratic enemy speeds, or lethal arena hazards.
-            </p>
-          </div>
-
-          <div class="feature-card">
-            <div class="feature-icon-badge" aria-hidden="true">
-              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg>
-            </div>
-            <h3>20-Wave Escalation & Final Boss</h3>
-            <p>
-              Survive 20 relentless rounds featuring evolving enemy formations, aggressive elite mobs, and an intense multi-phase Wave 20 encounter with the Star-Crowned Overlord.
-            </p>
-          </div>
-
-          <div class="feature-card">
-            <div class="feature-icon-badge" aria-hidden="true">
-              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect><line x1="8" y1="21" x2="16" y2="21"></line><line x1="12" y1="17" x2="12" y2="21"></line></svg>
-            </div>
-            <h3>Zero-GC Native Android Architecture</h3>
-            <p>
-              Preallocated memory pools and custom hardware-accelerated rendering eliminate runtime Garbage Collection pauses, ensuring rock-solid frame consistency.
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- In-Game Screenshot Gallery -->
-    <section class="section" id="screenshots">
-      <div class="container">
-        <div class="section-header">
-          <div class="sub-title">Live Production Captures</div>
-          <h2>Battleground Intel</h2>
-          <p>Straight from native Android test hardware running the latest release candidate.</p>
-        </div>
-
-        <div class="gallery-grid">
-          <div class="gallery-card">
-            <img src="assets/screenshot_home.png" alt="Survivor-X Main Hub" loading="lazy" />
-            <div class="gallery-card-body">
-              <h4>Home Hub</h4>
-              <p>Lobby navigation, profile progression, and milestones.</p>
-            </div>
-          </div>
-
-          <div class="gallery-card">
-            <img src="assets/screenshot_armory.png" alt="Tactical Armory" loading="lazy" />
-            <div class="gallery-card-body">
-              <h4>Tactical Armory</h4>
-              <p>Inspect weapon inventories and synergize 14 active stats.</p>
-            </div>
-          </div>
-
-          <div class="gallery-card">
-            <img src="assets/screenshot_upgrade.png" alt="Mid-Wave Upgrade Shop" loading="lazy" />
-            <div class="gallery-card-body">
-              <h4>Wave Upgrade Shop</h4>
-              <p>Acquire tactical items, reroll wares, and merge weapon tiers.</p>
-            </div>
-          </div>
-
-          <div class="gallery-card">
-            <img src="assets/screenshot_boss.png" alt="Wave 20 Boss Encounter" loading="lazy" />
-            <div class="gallery-card-body">
-              <h4>Wave 20 Boss Clash</h4>
-              <p>Bullet-hell collision patterns and phase-shifting overlords.</p>
-            </div>
-          </div>
-
-          <div class="gallery-card">
-            <img src="assets/screenshot_victory.png" alt="Victory Run Statistics" loading="lazy" />
-            <div class="gallery-card-body">
-              <h4>Run Analytics</h4>
-              <p>Run summary with kills, level, materials, Astral Cores banked and your final attributes.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Technical Specs & Engine Architecture -->
-    <section class="section" id="specs">
-      <div class="container">
-        <div class="specs-card">
-          <div class="section-header" style="margin-bottom: 2.5rem;">
-            <div class="sub-title">Native Performance</div>
-            <h2>Technical Specifications</h2>
-            <p>Built uncompromisingly for Android power users and high-refresh displays.</p>
-          </div>
-
-          <div class="specs-grid">
-            <div class="spec-cell">
-              <div class="spec-title">Target Platform</div>
-              <div class="spec-val">Android 7.0 and later</div>
-              <div class="spec-detail">Minimum API 24 / target API 36</div>
-            </div>
-
-            <div class="spec-cell">
-              <div class="spec-title">Display Pacing</div>
-              <div class="spec-val">60 Hz / 120 Hz Variable</div>
-              <div class="spec-detail">Hardware-synced Surface frame pacing</div>
-            </div>
-
-            <div class="spec-cell">
-              <div class="spec-title">Game Data</div>
-              <div class="spec-val">Saved on Your Device</div>
-              <div class="spec-detail">No Stasis State game account required</div>
-            </div>
-
-            <div class="spec-cell">
-              <div class="spec-title">Editions</div>
-              <div class="spec-val">Free &amp; Paid</div>
-              <div class="spec-detail">The paid Survivor-X is a separate app with local progress import from Survivor-X (Free)</div>
-            </div>
-
-            <div class="spec-cell">
-              <div class="spec-title">Thermal Strategy</div>
-              <div class="spec-val">Active Thermal Listener</div>
-              <div class="spec-detail">Dynamic particle scaling under sustained load</div>
-            </div>
-
-            <div class="spec-cell">
-              <div class="spec-title">Offline Capability</div>
-              <div class="spec-val">100% Offline-Playable</div>
-              <div class="spec-detail">Play anywhere without an active network</div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="section" id="support">
-      <div class="container support-panel">
-        <div class="sub-title">Publisher &amp; Player Support</div>
+<header>
+<a class="brand" href="index.html">SURVIVOR<span>–X</span>
+<small>ASTRAL FORGE</small>
+</a>
+<nav aria-label="Main">
+<a href="#gameplay">Gameplay</a>
+<a href="#heroes">Heroes</a>
+<a href="#support">Support</a>
+</nav>
+</header>
+<main id="main">
+<section class="hero" aria-label="Survivor-X: Astral Forge">
+<div class="copy">
+<p class="eyebrow">STASIS STATE / ANDROID ARENA ROGUELITE</p>
+<h1>OUTLAST<br>THE VOID.</h1>
+<p class="intro">Move with instinct. Forge your build. Survive the swarm. A single-thumb arena roguelite where every upgrade changes the fight.</p>
+<div class="actions">
+<a class="primary" href="#gameplay">Explore the game <span>↗</span>
+</a>
+<a class="secondary" href="mailto:support@stasisstate.com">Ask about availability</a>
+</div>
+<p class="micro">NATIVE ANDROID &nbsp; / &nbsp; OFFLINE PLAY</p>
+</div>
+<figure class="art">
+<div class="orbit" aria-hidden="true">
+</div>
+<img fetchpriority="high" src="assets/vanguard.png" width="512" height="512" alt="Vanguard, an illustrated Astral Forge hero">
+<figcaption>VANGUARD / ASTRAL FORGE</figcaption>
+</figure>
+</section>
+<div class="stats">
+<div>
+<strong>20</strong>
+<span>Escalating waves</span>
+</div>
+<div>
+<strong>01</strong>
+<span>Thumb in control</span>
+</div>
+<div>
+<strong>I–IV</strong>
+<span>Weapon tiers</span>
+</div>
+<div>
+<strong>Offline</strong>
+<span>Play anywhere</span>
+</div>
+</div>
+<section class="gameplay" id="gameplay">
+<div>
+<p class="eyebrow">THE SURVIVAL LOOP / 01</p>
+<h2>Every wave.<br>A new decision.</h2>
+<p>Weapons fire automatically. You choose the path through the swarm. Between waves, upgrade your arsenal and merge duplicate weapons into stronger tiers.</p>
+<div class="steps">
+<div>
+<b>01 / MOVE</b>
+<p>Find your opening. Keep moving.</p>
+</div>
+<div>
+<b>02 / FORGE</b>
+<p>Turn your next upgrade into an advantage.</p>
+</div>
+<div>
+<b>03 / SURVIVE</b>
+<p>Face the next wave with a stronger build.</p>
+</div>
+</div>
+</div>
+<figure class="capture">
+<img src="assets/screenshot_boss.png" width="1080" height="2337" alt="Actual Survivor-X boss battle screenshot" loading="lazy">
+<figcaption>IN-GAME CAPTURE / BOSS ENCOUNTER</figcaption>
+</figure>
+</section>
+<section id="heroes" class="heroes">
+<p class="eyebrow">CHOOSE YOUR APPROACH</p>
+<h2>Your hero. Your fight.</h2>
+<div class="roster-grid">
+<figure>
+<img src="assets/vanguard.png" width="512" height="512" alt="Vanguard hero" loading="lazy">
+<figcaption>Vanguard</figcaption>
+</figure>
+<figure>
+<img src="assets/gunslinger.png" width="512" height="512" alt="Gunslinger hero" loading="lazy">
+<figcaption>Gunslinger</figcaption>
+</figure>
+<figure>
+<img src="assets/technomancer.png" width="512" height="512" alt="Technomancer hero" loading="lazy">
+<figcaption>Technomancer</figcaption>
+</figure>
+<figure>
+<img src="assets/beastbinder.png" width="512" height="512" alt="Beastbinder hero" loading="lazy">
+<figcaption>Beastbinder</figcaption>
+</figure>
+</div>
+</section>
+<section class="screenshots" id="screenshots">
+  <p class="eyebrow">FROM THE ARENA</p>
+  <h2>Inside the Astral Forge.</h2>
+  <div class="screenshot-grid">
+    <figure>
+<img src="assets/screenshot_home.png" width="1080" height="2400" alt="Survivor-X home hub" loading="lazy">
+<figcaption>Home hub</figcaption>
+</figure>
+    <figure>
+<img src="assets/screenshot_armory.png" width="1080" height="2337" alt="Tactical armory in Survivor-X" loading="lazy">
+<figcaption>Tactical armory</figcaption>
+</figure>
+    <figure>
+<img src="assets/screenshot_upgrade.png" width="1080" height="2337" alt="Wave upgrade shop in Survivor-X" loading="lazy">
+<figcaption>Wave upgrade shop</figcaption>
+</figure>
+    <figure>
+<img src="assets/screenshot_victory.png" width="1080" height="2337" alt="Victory run summary in Survivor-X" loading="lazy">
+<figcaption>Victory run summary</figcaption>
+</figure>
+  </div>
+</section>
+<section class="closing" id="download">
+<h2>Enter the Astral Forge.</h2>
+<a class="primary" href="mailto:support@stasisstate.com">Ask about availability ↗</a>
+</section>    <section class="support" id="support">
+      <div class="support-panel">
+        <div class="eyebrow">Publisher &amp; Player Support</div>
         <h2>Stasis State LLC</h2>
         <p>For help with Survivor-X or Survivor-X (Free), email <a href="mailto:support@stasisstate.com">support@stasisstate.com</a>. Include which app you use, its version, Android version, and a description of the issue.</p>
         <p>Privacy requests: <a href="mailto:privacy@stasisstate.com">privacy@stasisstate.com</a>. Never send passwords, verification codes, or payment details.</p>
@@ -284,51 +151,14 @@
         <p>Organization website: <a href="https://stasisstate.com/">stasisstate.com</a>.</p>
       </div>
     </section>
-  </main>
-
-  <!-- Footer -->
-  <footer class="site-footer">
-    <div class="container">
-      <div class="footer-top">
-        <div class="footer-brand">
-          <h4>Survivor-X</h4>
-          <p>
-            An independent tactical roguelite published by <strong>Stasis State LLC</strong>.
-          </p>
-        </div>
-
-        <div class="footer-col">
-          <h5>Legal & Policy</h5>
-          <ul class="footer-links">
-            <li><a href="privacy.html">Privacy Policy</a></li>
-            <li><a href="terms.html">Terms of Service</a></li>
-            <li><a href="data-deletion.html">Account & Data Deletion</a></li>
-          </ul>
-        </div>
-
-        <div class="footer-col">
-          <h5>Publisher & Support</h5>
-          <ul class="footer-links">
-            <li><a href="https://stasisstate.com" target="_blank" rel="noopener noreferrer">Stasis State LLC Hub</a></li>
-            <li><a href="mailto:support@stasisstate.com">Player Support</a></li>
-            <li><a href="mailto:privacy@stasisstate.com">Privacy Officer</a></li>
-          </ul>
-        </div>
-      </div>
-
-      <div class="footer-bottom">
-        <div>
-          &copy; <span id="year">2026</span> Stasis State LLC. All rights reserved.
-        </div>
-        <div style="color: var(--text-dim); font-size: 0.8rem;">
-          Survivor-X is published by Stasis State LLC. Google Play is a trademark of Google LLC.
-        </div>
-      </div>
-    </div>
-  </footer>
-
-  <script>
-    document.getElementById('year').textContent = new Date().getFullYear();
-  </script>
+</main>
+<footer>
+<span>© 2026 SURVIVOR-X / <a href="https://stasisstate.com/">STASIS STATE LLC</a>
+</span>
+<a href="terms.html">Terms</a>
+<a href="privacy.html">Privacy</a>
+<a href="data-deletion.html">Data deletion</a>
+<a href="mailto:support@stasisstate.com">Support</a>
+</footer>
 </body>
 </html>

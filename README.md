@@ -55,3 +55,22 @@ the source declaration anticipates Play Games being enabled. Add a real store li
 only after confirming its listing is live.
 
 Preview: `python -m http.server 8081`, then http://localhost:8081/.
+
+## Cinematic homepage
+
+The homepage implements the selected Event Horizon cinematic design: a dark
+cyan atmosphere, orbital Vanguard portrait, gameplay loop, hero roster, and
+in-game screenshot gallery. `home.css` styles the homepage; `styles.css` remains
+the stylesheet for the privacy and data-deletion pages. The design mockups and
+their preview assets have been removed.
+
+The four hero portraits in `assets/` are copied from the game's Astral Forge pack:
+`portraits/ui_portrait_{vanguard,gunslinger,technomancer}_02.png` and
+`frontier/portraits/spr_player_beastbinder_right_01.png`. Keep these aligned with
+the game artwork. Images have explicit dimensions; below-fold images load lazily.
+The site continues to use no JavaScript dependencies, external fonts, or trackers.
+
+Validation: homepage and both policy pages rendered in isolated Chromium at
+320, 375, 768, 1024, and 1440 pixels, with no horizontal overflow, missing images,
+or runtime exceptions. Local links and section targets resolve. Availability
+buttons still contact the publisher until a verified store listing is supplied.
