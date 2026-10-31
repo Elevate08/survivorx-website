@@ -1,15 +1,16 @@
-# Survivor-X: Astral Forge website
+# Survivor-X website
 
-Official website for Survivor-X and Survivor-X Premium, published by **Stasis State
+Official website for Survivor-X and Survivor-X (Free), published by **Stasis State
 LLC**. Static HTML/CSS and local images; no build or dependencies.
 
 | Purpose | Production URL / contact |
 | --- | --- |
 | Game website | https://survivorx.stasisstate.com/ |
 | Privacy policy | https://survivorx.stasisstate.com/privacy.html |
+| Terms of service | https://survivorx.stasisstate.com/terms.html |
 | Data deletion | https://survivorx.stasisstate.com/data-deletion.html |
 | Organization | https://stasisstate.com/ |
-| App's current in-game policy link | https://stasisstate.com/privacy.html |
+| App's in-game policy link | https://survivorx.stasisstate.com/privacy.html |
 | Support | support@stasisstate.com |
 | Privacy requests | privacy@stasisstate.com |
 
@@ -31,23 +32,24 @@ does not verify mailbox delivery or complete Google identity verification.
 
 ## Keeping disclosures accurate
 
-Reviewed October 26, 2026 against `../survivor-x` commit `75992ef5`:
+Reviewed October 31, 2026 against the game repo's
 `app/data-safety.json`, `docs/play/data-safety.md`, Gradle dependencies, manifests,
 backup rules, Play Games initialization, analytics, and distribution settings.
 
-- Free `com.stasisstate.survivorx.free`; Premium `com.stasisstate.survivorx.paid`.
+- Survivor-X (Free) `com.stasisstate.survivorx.free`; Survivor-X (paid) `com.stasisstate.survivorx.paid`.
 - No live ad SDK or advertising-ID access; free advertising flows are placeholders.
 - No Firebase, remote analytics, billing SDK, or publisher game accounts/backend.
 - Run analytics stay on-device: off by default in release, on in debug.
-- Play Games saves are implemented but disabled by default until a project ID is
-  configured. The policy conditionally describes identity, saved progression,
-  lifetime stats, and Google's SDK analytics and diagnostics.
+- Play Games saves and achievements are implemented but disabled by default until a
+  project ID is configured. The policy conditionally describes identity, saved
+  progression, lifetime stats, achievement unlocks, and Google's SDK analytics and
+  diagnostics.
 - Android backups can exist independently of Play Games; local deletion does not
-  erase Google-held copies. Premium imports progress directly on-device.
+  erase Google-held copies. The paid app imports progress directly on-device.
 
-Keep this site's privacy and deletion pages aligned with
-`../stasisstatellc-website/privacy.html#survivor-x` and its deletion section.
-Update both sites, the game's Data Safety declaration, and Play Console when SDKs,
+This site is the single home of every Survivor-X legal page (terms, privacy,
+deletion). stasisstate.com only points here. Keep these pages aligned with the
+game's Data Safety declaration, and update the declaration and Play Console when SDKs,
 permissions, configuration, or data flows change. Recheck the release artifact;
 the source declaration anticipates Play Games being enabled. Add a real store link
 only after confirming its listing is live.
