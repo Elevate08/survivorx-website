@@ -36,7 +36,7 @@ Reviewed October 31, 2026 against the game repo's
 `app/data-safety.json`, `docs/play/data-safety.md`, Gradle dependencies, manifests,
 backup rules, Play Games initialization, analytics, and distribution settings.
 
-- Survivor-X (Free) `com.stasisstate.survivorx.free`; Survivor-X (paid) `com.stasisstate.survivorx.paid`.
+- Survivor-X (Free) `com.stasisstate.survivorx.free`; Survivor-X (paid) `com.stasisstate.survivorx`.
 - No live ad SDK or advertising-ID access; free advertising flows are placeholders.
 - No Firebase, remote analytics, billing SDK, or publisher game accounts/backend.
 - Run analytics stay on-device: off by default in release, on in debug.
